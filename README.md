@@ -2,11 +2,13 @@
 
 Perform automatic searches on Bing to earn Microsoft Rewards points.
 
-The Bash script `rewarder.sh` performs 30 PC searches and 20 mobile searches.
+By default, the Bash script `rewarder.sh` performs 30 PC searches and 20 mobile searches.
 
-During every search, a keyword is chosen randomly from `/usr/share/dict/words` (this could be replaced by other line-separated dictionary file).
+During every search, a keyword is chosen randomly from `/usr/share/dict/words` (this could be replaced by another line-separated dictionary file).
 
 ## Usage
+
+### Basic Usage
 
 1. first you need a Microsoft account that is registered with Microsoft Rewards
 
@@ -18,4 +20,12 @@ During every search, a keyword is chosen randomly from `/usr/share/dict/words` (
 
 ```
 bash rewarder.sh
+```
+
+### Advanced Usage
+
+See help screen for detailed description:
+
+```
+bash rewarder.sh -h
 ```
