@@ -14,7 +14,7 @@ WORD_COUNT=`cat $ALL_NON_RANDOM_WORDS | wc -l`
 # check if cookies.txt present
 check_cookies() {
     if [[ ! -f cookies.txt ]]; then
-        echo "Please provide cookies.txt before continuing."
+        echo -ne "\e[31mERROR:\e[0m please provide cookies.txt before continuing.\n"
         exit
     fi
 }
