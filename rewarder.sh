@@ -4,8 +4,13 @@
 # - requires cookies.txt
 # - performs both PC and mobile searches
 #   - 30 times for PC, 20 for mobile
+# - searches by using Edge user agent to gain bonus 12 points
 
-USERAGENT_PC="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0"
+# PC user agent (Microsoft Edge)
+USERAGENT_PC="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134"
+# PC user agent (Firefox)
+#USERAGENT_PC="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:53.0) Gecko/20100101 Firefox/53.0"
+# mobile user agent (iPhone Safari)
 USERAGENT_MOBILE="Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1"
 
 ALL_NON_RANDOM_WORDS="words.txt"
